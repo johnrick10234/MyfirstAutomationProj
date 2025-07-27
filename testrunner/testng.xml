@@ -4,6 +4,7 @@
   <test thread-count="5" name="Login Test">
     <classes>
       <class name="testcase.MyFirstTestFW"/>
+      <class name="testcase.TestLogInFunctionality"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

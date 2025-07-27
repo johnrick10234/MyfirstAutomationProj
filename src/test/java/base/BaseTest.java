@@ -25,7 +25,6 @@ public class BaseTest {
 	public static FileReader fr1;
 	
 	@BeforeMethod
-	@BeforeTest
 
 	public void setUp() throws IOException {
 		
@@ -50,7 +49,6 @@ public class BaseTest {
 		
 	}
 	@AfterMethod
-	@AfterTest
 	public void tearDown() {
 		
 		driver.close();
