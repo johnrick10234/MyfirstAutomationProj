@@ -1,5 +1,7 @@
 package base;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.io.FileReader;
 import java.util.Properties;
 import java.io.IOException;
@@ -22,6 +24,7 @@ public class BaseTest {
 	public static FileReader fr;
 	public static FileReader fr1;
 	
+	@BeforeMethod
 	@BeforeTest
 
 	public void setUp() throws IOException {
@@ -46,6 +49,7 @@ public class BaseTest {
 		}
 		
 	}
+	@AfterMethod
 	@AfterTest
 	public void tearDown() {
 		
