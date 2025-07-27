@@ -2,19 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-26T19:18:40 CDT" name="Default suite" finished-at="2025-07-26T19:18:46 CDT" duration-ms="6268">
+  <suite started-at="2025-07-26T19:58:01 CDT" name="Default suite" finished-at="2025-07-26T19:58:10 CDT" duration-ms="8683">
     <groups>
     </groups>
-    <test started-at="2025-07-26T19:18:40 CDT" name="Default test" finished-at="2025-07-26T19:18:46 CDT" duration-ms="6268">
+    <test started-at="2025-07-26T19:58:01 CDT" name="Default test" finished-at="2025-07-26T19:58:10 CDT" duration-ms="8683">
       <class name="testcase.MyFirstTestFW">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@372ea2bc]" started-at="2025-07-26T19:18:40 CDT" name="setUp" finished-at="2025-07-26T19:18:44 CDT" duration-ms="4303" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@a486d78]" started-at="2025-07-26T19:58:01 CDT" name="setUp" finished-at="2025-07-26T19:58:07 CDT" duration-ms="6160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:0, instance:testcase.MyFirstTestFW@372ea2bc]" started-at="2025-07-26T19:18:44 CDT" name="LoginTest" finished-at="2025-07-26T19:18:46 CDT" duration-ms="1918" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:testcase.MyFirstTestFW@a486d78]" started-at="2025-07-26T19:58:07 CDT" name="LoginTest" finished-at="2025-07-26T19:58:10 CDT" duration-ms="2425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirstTestFW@a486d78]" started-at="2025-07-26T19:58:10 CDT" name="tearDown" finished-at="2025-07-26T19:58:10 CDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testcase.MyFirstTestFW -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

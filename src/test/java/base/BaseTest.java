@@ -18,7 +18,9 @@ public class BaseTest {
 	
 	public static WebDriver driver;
 	public static Properties prop = new Properties();
+	public static Properties loc = new Properties();
 	public static FileReader fr;
+	public static FileReader fr1;
 	
 	@BeforeTest
 
@@ -27,7 +29,9 @@ public class BaseTest {
 		if(driver==null) {
 			System.out.println("The path is: " + System.getProperty("user.dir"));
 			FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configfiles\\config.properties");
+			FileReader fr1 = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configfiles\\locators.properties");
 			prop.load(fr);
+			loc.load(fr1);
 		}
 		
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
