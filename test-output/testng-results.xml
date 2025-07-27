@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-26T20:33:32 CDT" name="Suite" finished-at="2025-07-26T20:33:41 CDT" duration-ms="9273">
+  <suite started-at="2025-07-26T20:38:09 CDT" name="Suite" finished-at="2025-07-26T20:38:18 CDT" duration-ms="9332">
     <groups>
     </groups>
-    <test started-at="2025-07-26T20:33:32 CDT" name="Login Test" finished-at="2025-07-26T20:33:41 CDT" duration-ms="9273">
+    <test started-at="2025-07-26T20:38:09 CDT" name="Login Test" finished-at="2025-07-26T20:38:18 CDT" duration-ms="9332">
       <class name="testcase.MyFirstTestFW">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:33:32 CDT" name="setUp" finished-at="2025-07-26T20:33:36 CDT" duration-ms="3887" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:38:09 CDT" name="setUp" finished-at="2025-07-26T20:38:12 CDT" duration-ms="3308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:33:36 CDT" name="setUp" finished-at="2025-07-26T20:33:39 CDT" duration-ms="2683" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:38:12 CDT" name="setUp" finished-at="2025-07-26T20:38:15 CDT" duration-ms="2970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:33:39 CDT" name="LoginTest" finished-at="2025-07-26T20:33:41 CDT" duration-ms="2544" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:38:15 CDT" name="LoginTest" finished-at="2025-07-26T20:38:18 CDT" duration-ms="2864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:33:41 CDT" name="tearDown" finished-at="2025-07-26T20:33:41 CDT" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:38:18 CDT" name="tearDown" finished-at="2025-07-26T20:38:18 CDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:33:41 CDT" name="tearDown" finished-at="2025-07-26T20:33:41 CDT" duration-ms="79" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.MyFirstTestFW@6aeb35e6]" started-at="2025-07-26T20:38:18 CDT" name="tearDown" finished-at="2025-07-26T20:38:18 CDT" duration-ms="65" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [374cf8c143bfc1428060d0db7b28c3a2, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52304}, msedge: {msedgedriverVersion: 138.0.3351.109 (3e2a22a9de0..., userDataDir: C:\Users\johnr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52304/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 374cf8c143bfc1428060d0db7b28c3a2]]>
+Command: [73c7b653be918fd390f67fd1e4755619, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54395}, msedge: {msedgedriverVersion: 138.0.3351.109 (3e2a22a9de0..., userDataDir: C:\Users\johnr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54395/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73c7b653be918fd390f67fd1e4755619]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [374cf8c143bfc1428060d0db7b28c3a2, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52304}, msedge: {msedgedriverVersion: 138.0.3351.109 (3e2a22a9de0..., userDataDir: C:\Users\johnr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52304/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 374cf8c143bfc1428060d0db7b28c3a2
+Command: [73c7b653be918fd390f67fd1e4755619, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54395}, msedge: {msedgedriverVersion: 138.0.3351.109 (3e2a22a9de0..., userDataDir: C:\Users\johnr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54395/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73c7b653be918fd390f67fd1e4755619
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
