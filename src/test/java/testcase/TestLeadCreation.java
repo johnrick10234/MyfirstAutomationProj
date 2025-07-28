@@ -13,11 +13,11 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import utilities.ReadXLSdata;
 
-public class  TestLogInFunctionality extends BaseTest {
+public class  TestLeadCreation extends BaseTest {
 	
 	@Test (dataProviderClass=ReadXLSdata.class,dataProvider="bvtdata")
 	
-	public static void Login(String username, String password) throws InterruptedException
+	public void LeadCreate(String username, String password, String FirstName, String LastName, String Company) throws InterruptedException
 	{
 		driver.findElement(By.linkText(loc.getProperty("signin_link"))).click();
 		
@@ -35,19 +35,31 @@ public class  TestLogInFunctionality extends BaseTest {
 		
 		WebElement calendar = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("calendar"))));
 		calendar.click();
+//	    driver.findElement(By.linkText(loc.getProperty("leadbutton"))).click();
+		
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	
+		WebElement leadbutton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("lead_button"))));	
+		leadbutton.click();
+		
+		WebElement clb = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("Create_lead_button"))));
+		clb.click();
+		
+		WebElement fn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("FirstName"))));
+		
+		fn.sendKeys(FirstName);
+//		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Testonly1234!");
+		WebElement ln = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("LastName"))));
+		
+		ln.sendKeys(LastName);
+		
+		WebElement cp = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(loc.getProperty("Company"))));
+		
+		cp.sendKeys(Company);
+		
+		driver.findElement(By.xpath(loc.getProperty("lead_save_button"))).click();
 		
 	}
-	
-//	@DataProvider(name="testdata")
-//	public Object[][] tData()
-//	{
-//		return new Object[][] 
-//		{
-//			{"johnrickpo@gmail.com","test"},
-//			{"johnrickpogi23@gmail.com","test"},
-//			{"johnrickpogi23@gmail.com","Testonly1234!"}
-//			
-//		};
-//	}
-//
+
+
 }

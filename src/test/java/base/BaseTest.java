@@ -50,11 +50,14 @@ public class BaseTest {
 	}
 	@AfterMethod
 	public void tearDown() {
-		
-		driver.close();
-		System.out.println("close");
-		
-		
+	    try {
+	        Thread.sleep(10000); // Waits for 10 seconds (10,000 milliseconds)
+	    } catch (InterruptedException e) {
+	        e.printStackTrace();
+	    }
+
+	    driver.close();
+	    System.out.println("Browser closed after 10 seconds.");
 	}
 
 
