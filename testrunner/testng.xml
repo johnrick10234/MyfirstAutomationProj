@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Login Test">
     <classes>
-      <class name="testcase.MyFirstTestFW"/>
+      <class name="testcase.TestLeadCreation"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
